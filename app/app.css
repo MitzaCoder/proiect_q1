@@ -11,10 +11,13 @@ section.top {
 
 h1.center {
     text-align: center;
+    color: white;
+    margin-top: 70px;
 }
 
 button.center {
     display: block;
+    margin-top: 40px;
 }
 
 nav {
@@ -28,8 +31,20 @@ nav a {
     padding-left: 10px;
     padding-right: 10px;
     float: right;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: aquamarine;
 }
 
 #learn-more-btn {
-    border: 1px white;
+    border: 10px;
+    border-color: black;
 }
+
