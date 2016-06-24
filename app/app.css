@@ -14,7 +14,7 @@ h1.center {
     text-align: center;
     color: white;
     margin-top: 70px;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 button.center {
@@ -43,7 +43,7 @@ nav a {
     float: right;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 nav a:visited {
@@ -62,12 +62,14 @@ nav a:hover {
     border-style: solid;
     border-radius: 10px;
     background-color: transparent;
-    font-size: 25px;
+    font-size: 20px;
+    transition-duration: 0.2s;
+    transition-property: background-color;
+    transition-timing-function: linear;
 }
 
 #learn-more-btn:hover {
-    border-color: aqua;
-    color: aqua;
+    background-color: aqua
 }
 
 #second-section {
@@ -78,6 +80,10 @@ nav a:hover {
 #third-section {
     background-color: #262626;
     height: 300px;
+}
+
+#fourth-section {
+    background-color: #3399ff;
 }
 
 #second-section p {
@@ -104,3 +110,62 @@ footer {
     margin-right: 40px;
 }
 
+.col {
+    display: inline-block;
+    margin: auto;
+    width: 33%;
+}
+
+.row {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.grid-image-wrapper {
+    margin: auto;
+}
+
+.image-wrapper img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+.image-wrapper img:hover {
+    transform: scale(1.1);
+}
+
+.grid img {
+    width: 300px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+.grid img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+    .col {
+        width: 50%;
+    }
+}
