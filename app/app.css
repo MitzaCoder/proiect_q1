@@ -74,7 +74,7 @@ nav a:hover {
 
 #second-section {
     background-color: #3399ff;
-    height: 400px;
+    height: auto;
 }
 
 #third-section {
@@ -156,10 +156,6 @@ footer {
     .image-wrapper {
         border-width: 2px;
     }
-    
-    #second-section {
-        height: 350px;
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -175,10 +171,6 @@ footer {
     
     #second-section p {
         font-size: 18px;
-    }
-    
-    #second-section {
-        height: 300px;
     }
 }
 
