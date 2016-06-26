@@ -95,7 +95,7 @@ nav a:hover {
 }
 
 #img-message {
-    transition-property: all;
+    transition-property: transform;
     transition-duration: 0.8s;
     transition-timing-function: ease-in-out;
 }
@@ -105,7 +105,7 @@ nav a:hover {
 }
 
 #img-user {
-    transition-property: all;
+    transition-property: transform;
     transition-duration: 0.6s;
     transition-timing-function: ease-in-out;
 }
@@ -115,7 +115,7 @@ nav a:hover {
 }
 
 #img-clock {
-    transition-property: all;
+    transition-property: transform;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
 }
