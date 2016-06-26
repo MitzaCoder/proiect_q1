@@ -136,9 +136,50 @@ footer {
     left: 25%;
     width: 50px;
     height: 50px;
-    transition-duration: 0.3s;
-    transition-property: all;
-    transition-timing-function: ease-out;
+}
+
+@media screen and (max-width: 600px) {
+    .image-wrapper {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .image-wrapper img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #second-section p {
+        font-size: 22px;
+    }
+    
+    .image-wrapper {
+        border-width: 2px;
+    }
+    
+    #second-section {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .image-wrapper {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .image-wrapper img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #second-section p {
+        font-size: 18px;
+    }
+    
+    #second-section {
+        height: 300px;
+    }
 }
 
 /*.image-wrapper img:hover {
