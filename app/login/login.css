@@ -4,7 +4,7 @@ a {
 
 #top {
     background-color: black;
-    height: 60px;
+    height: 40px;
     padding: 30px 0px;
 }
 
@@ -35,4 +35,22 @@ nav a {
     color: white;
     font-size: 20px;
     margin: 0px 12px;
+}
+
+@media screen and (max-width: 600px) {
+    #logo-wrapper h1 {
+        font-size: 28px;
+    }
+    
+    nav {
+        margin: 10px 0px;
+    }
+    
+    nav a {
+        font-size: 14px;
+    }
+    
+    #top {
+        padding: 20px 0pxs;
+    }
 }
