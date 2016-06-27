@@ -48,10 +48,14 @@ nav a {
     width: 40%;
 }
 
+fieldset {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
 #account-info {
     border: 0px;
-    padding: 0px;
-    margin: 0px;
 }
 
 #account-info legend {
@@ -93,6 +97,18 @@ nav a {
     float: right;
     padding: 6px 22px;
     text-align: center;
+}
+
+#register-invite {
+    text-align: right;
+}
+
+#register-invite a {
+    color: white;
+}
+
+#register-invite p {
+    color: #202020;
 }
 
 @media screen and (max-width: 600px) {
