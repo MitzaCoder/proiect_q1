@@ -37,6 +37,11 @@ nav a {
     margin: 0px 12px;
 }
 
+#login-section {
+    background-color: #07a389;
+    height: 400px;
+}
+
 @media screen and (max-width: 600px) {
     #logo-wrapper h1 {
         font-size: 28px;
