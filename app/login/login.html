@@ -21,7 +21,28 @@
         </div>
     </header>
     <section id="login-section">
-        
+        <div id="login-wrapper">
+            <form method=post>
+            <fieldset id="account-info">
+                <legend>Login</legend>
+                <label>
+                    Username
+                    <input type="text" name="username" placeholder="sarumihai">
+                </label>
+                <label>
+                    Password
+                    <input type="password" name="password">
+                </label>
+            </fieldset>
+            <label id="stay-logged">
+                <input type="checkbox" name="stay">
+                Stay logged in
+            </label>
+            <input type="submit" name="submit" value="Login" id="submit-btn">
+            
+            </form>
+
+        </div>
     </section>
 </body>
 </html>
