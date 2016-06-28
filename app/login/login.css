@@ -131,4 +131,8 @@ fieldset {
     #top {
         padding: 20px 0pxs;
     }
+    
+    #login-wrapper {
+        width: 60%;
+    }
 }
