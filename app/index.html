@@ -5,19 +5,34 @@
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="app.css">
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<section class="top" id="top">
-    <header>
-    <nav>
-        <a href="about/about.html">About</a>
-        <a href="contact/contact.html">Contact</a>
-        <a href="login/login.html">Login</a>
-    </nav>
+    <header id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" data-target="#myNavbar"
+                            data-toggle="collapse"
+                            class="btn btn-default btn-lg navbar-toggle">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">QShop</a>
+                </div>
+                <div id="myNavbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="about/about.html">About</a></li>
+                        <li><a href="contact/contact.html">Contact</a></li>
+                        <li><a href="login/login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <h1 class="center">QShop</h1>
     <button class="center" id="learn-more-btn">Learn more</button>
-</section>
 <section id="second-section">
     <p>Lorem Ipsum</p>
     <p>Contrary to popular belief, Lorem Impsum is not simply
