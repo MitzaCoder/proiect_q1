@@ -22,7 +22,6 @@ button.center {
     margin-top: 40px;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -52,6 +51,7 @@ a:visited {
 #second-section {
     background-color: #3399ff;
     height: auto;
+    padding: 100px;
 }
 
 #third-section {
