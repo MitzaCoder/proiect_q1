@@ -5,50 +5,63 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="../assets/js/jquery-2.2.4.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
-    <header id="top">
-        <div id="top-wrapper">
-            <div id="logo-wrapper">
-                <a href="../index.html"><h1>QShop</h1></a>
+    <header id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" data-target="#myNavbar"
+                            data-toggle="collapse"
+                            class="btn btn-default btn-lg navbar-toggle">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                    </button>
+                    <a href="../index.html" class="navbar-brand">QShop</a>
+                </div>
+                <div id="myNavbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                        <li><a href="../login/login.html">Login</a></li>
+                    </ul>
+                </div>
             </div>
-            <nav>
-                <a href="../about/about.html">About</a>
-                <a href="../contact/contact.html">Contact</a>
-                <a href="../register/register.html">Register</a>
-            </nav>
-        </div>
+        </nav>
     </header>
     <section id="login-section">
-        <div id="login-wrapper">
-            <form method=post>
-            <fieldset id="account-info">
-                <legend>Login</legend>
-                <label>
-                    Username
-                    <input type="text" name="username" placeholder="sarumihai">
-                </label>
-                <label>
-                    Password
-                    <input type="password" name="password">
-                </label>
-            </fieldset>
-            <fieldset>
-                <label id="stay-logged">
-                    <input type="checkbox" name="stay">
-                    Stay logged in
-                </label>
-                <input type="submit" name="submit" value="Login" id="submit-btn">
-            </fieldset>
-            <div id="register-invite">
-                <p>
-                    Don't have an account?
-                    <a href="../register/register.html">Register!</a>
-                </p>
+        <div id="container">
+            <div class="row">
+                <form method=post>
+                <fieldset id="account-info">
+                    <legend>Login</legend>
+                    <label>
+                        Username
+                        <input type="text" name="username" placeholder="sarumihai">
+                    </label>
+                    <label>
+                        Password
+                        <input type="password" name="password">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label id="stay-logged">
+                        <input type="checkbox" name="stay">
+                        Stay logged in
+                    </label>
+                    <input type="submit" name="submit" value="Login" id="submit-btn">
+                </fieldset>
+                <div id="register-invite">
+                    <p>
+                        Don't have an account?
+                        <a href="../register/register.html">Register!</a>
+                    </p>
+                </div>
+                </form>
             </div>
-            </form>
-
         </div>
     </section>
 </body>
