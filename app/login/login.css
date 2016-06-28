@@ -84,6 +84,11 @@ fieldset {
     color: #202020;
 }
 
+.custom-form {
+    width: 50%;
+    margin: auto;
+}
+/*
 @media screen and (max-width: 600px) {
     #logo-wrapper h1 {
         font-size: 28px;
@@ -104,4 +109,4 @@ fieldset {
     #login-wrapper {
         width: 60%;
     }
-}
+}*/

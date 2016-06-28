@@ -33,33 +33,28 @@
         </nav>
     </header>
     <section id="login-section">
-        <div id="container">
+        <div class="container">
             <div class="row">
-                <form method=post>
-                <fieldset id="account-info">
-                    <legend>Login</legend>
-                    <label>
-                        Username
-                        <input type="text" name="username" placeholder="sarumihai">
-                    </label>
-                    <label>
-                        Password
-                        <input type="password" name="password">
-                    </label>
-                </fieldset>
-                <fieldset>
-                    <label id="stay-logged">
-                        <input type="checkbox" name="stay">
-                        Stay logged in
-                    </label>
-                    <input type="submit" name="submit" value="Login" id="submit-btn">
-                </fieldset>
-                <div id="register-invite">
-                    <p>
-                        Don't have an account?
-                        <a href="../register/register.html">Register!</a>
-                    </p>
-                </div>
+                <form class="custom-form">
+                    <div class="form-group clearfix">
+                        <label for="username" class="col-xs-3 control-label">Username</label>
+                        <div class="col-xs-8">
+                            <input class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group clearfix">
+                        <label for="username" class="col-xs-3 control-label">Password</label>
+                        <div class="col-xs-8">
+                            <input class="form-control" type="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <button type="submit" class="btn btn-default">
+                                Login
+                            </button>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
