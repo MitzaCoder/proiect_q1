@@ -61,6 +61,7 @@ a:visited {
 
 #fourth-section {
     background-color: #3399ff;
+    padding: 40px 0px;
 }
 
 #second-section p {
@@ -154,15 +155,11 @@ footer {
     padding: 30px;
 }
 
-.grid-col {
-    width: 33%;
-}
-
 /*.image-wrapper img:hover {
     transform: scale(1.1);
 }*/
 
-.grid-col img {
+.grid-image-wrapper img {
     width: 80%;
     margin: 0px auto;
     padding: 10px;
@@ -172,7 +169,7 @@ footer {
     transition-timing-function: ease-out;
 }
 
-.grid-col img:hover {
+.grid-image-wrapper img:hover {
     transform: scale(1.1);
 }
 
