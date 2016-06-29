@@ -1,0 +1,26 @@
+#banner {
+  background-color: cyan;
+  margin: 40px 0px 0px 0px;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+#banner h1 {
+  font-size: 50px;
+}
+
+#intro {
+  text-align: center;
+}
+
+#intro p {
+  font-size: 15px;
+}
+
+#side-menu {
+  background-color: red;
+}
+
+#products {
+  background-color: blue;
+}
