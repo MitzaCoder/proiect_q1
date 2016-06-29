@@ -30,6 +30,7 @@
   height: 50px;
   width: 50px;
   text-align: center;
+  z-index: 2;
 }
 
 .on-sale-bullet-text {
@@ -44,6 +45,7 @@
   position: relative;
   box-shadow: 0px 5px 1px #cccccc;
   margin: 30px 0px 0px 0px;
+  z-index: 0;
 }
 
 .product-image {
