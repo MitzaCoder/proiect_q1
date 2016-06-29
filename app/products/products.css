@@ -24,3 +24,10 @@
 #products {
   background-color: blue;
 }
+
+.product {
+  background-color: green;
+  height: 100px;
+  border: 2px black solid;
+  text-align: center;
+}
