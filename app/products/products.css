@@ -33,3 +33,14 @@
   border-radius: 10px 10px 0px 0px;
   width: 100%;
 }
+
+.product-name {
+  font-size: 20px;
+  padding: 15px 0px 0px 15px;
+}
+
+.product-price {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px 0px 0px 15px;
+}
