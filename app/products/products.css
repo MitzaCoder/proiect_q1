@@ -22,11 +22,10 @@
 }
 
 #products {
-  background-color: blue;
 }
 
 .product-card {
-  text-align: center;
+  background-color: #f0eee9;
 }
 
 .product-image {
